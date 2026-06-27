@@ -1,1 +1,48 @@
+export const actors = [
+  {
+    id: "ACT-001",
+    name: "Robert Downey Jr.",
+    birthday: "1965-04-04",
+    nationality: "American",
+    image: "/actors/robert.jpg",
+    biography: "American actor best known for playing Iron Man.",
+    movies: ["MOV-001", "MOV-002"],
+  },
+  {
+    id: "ACT-002",
+    name: "Scarlett Johansson",
+    birthday: "1984-11-22",
+    nationality: "American",
+    image: "/actors/scarlett.jpg",
+    biography: "American actress known for Black Widow and many other films.",
+    movies: ["MOV-001"],
+  },
+  {
+    id: "ACT-003",
+    name: "Tom Hanks",
+    birthday: "1956-07-09",
+    nationality: "American",
+    image: "/actors/tomhanks.jpg",
+    biography: "Academy Award-winning actor famous for Forrest Gump and Cast Away.",
+    movies: ["MOV-003"],
+  },
+  {
+    id: "ACT-004",
+    name: "Leonardo DiCaprio",
+    birthday: "1974-11-11",
+    nationality: "American",
+    image: "/actors/leo.jpg",
+    biography: "American actor known for Titanic, Inception and The Revenant.",
+    movies: ["MOV-004"],
+  },
+  {
+    id: "ACT-005",
+    name: "Emma Watson",
+    birthday: "1990-04-15",
+    nationality: "British",
+    image: "/actors/emma.jpg",
+    biography: "British actress best known for playing Hermione Granger.",
+    movies: ["MOV-005"],
+  },
+];
 
